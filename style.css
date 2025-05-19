@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+}
+.container{
+    width: 1000px;
+    height: 4500px;
+    background-color:aliceblue;
+    
+}
+.section1{
+    background-image: url(back.png);
+    width: 1000px;
+    height: 500px;
+    
+}
+.navigations{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.nav>ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+li>a{
+    padding: 20px;
+    color: white;
+}
+#newmember{
+    background-color: rgb(7, 166, 230);
+    margin-left: 30px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.logins{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.xbody{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+li{
+    
+    list-style-type: none;
+}
+#login{
+    background-color: transparent;
+    border-color: transparent;
+}
+.content{
+    color: white;
+}
+.getlearn{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.getlearn>button{
+    
+}
+#get{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(7, 166, 230);
+}
+#learn{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: transparent;
+    margin-left: 20px;
+}
+.footer1{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.peace,.set,.satisfaction{
+    padding-left: 20px;
+   
+}
+.peace,.set{
+    background-color: white;
+    color: black;
+}
+.satisfaction{
+    background-color: rgb(7, 166, 230);
+    color: white;
+}
+.set,.satisfaction{
+    margin-left: 20px;
+}
+.section2{
+   height: 15s00px;
+   margin-top: 0 ;
+   background-color: aliceblue;
+   margin-top: 100px;
+}
+.foot{
+   display: flex;
+   justify-content: center;
+   padding-top: 60px;
+   background-color: white;
+   height: 250px;
+    
+}
+.set2,.satisfaction2{
+    margin-left: 20px;
+}
+.industry{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.document{
+    text-align: center;
+}
+.girl,.man,.woman{
+    background-color: white;
+    width: 250px;
+    height: 400px;
+    
+}
+.profiles{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.man,.woman{
+    margin-left: 30px;
+}
+.paragraph{
+    display: flex;
+    justify-content: center;
+    
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.paragraph>h3{
+    color: grey;
+}
+.profiles>img{
+    
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.rating{
+    display: flex;
+    justify-content: center;
+}
+.vector{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 170px;
+}
+.subscription{
+    display: flex;
+    justify-content: space-between;
+    background-color: palevioletred;
+    width: 900px;
+    height: 70px;
+}
+.bound{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.input{
+    padding: 5px;
+    
+    height: 40px;
+}
+.word{
+    text-align: center;
+    margin-top: 150px;
+}
+.prices{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.free{
+    height: 400px;
+    margin-top: 50px;
+}
+.standard{
+    height: 450px;
+    color: white;
+    padding-top: 50px;
+}
+.premium{
+    height: 400px;
+    margin-top: 50px;
+}
+.free>p,.standard>p,.premium>p{
+    margin: 10px;
+}
+.free,.standard,.premium{
+    border-radius: 20px;
+    border-color: skyblue;
+    border-style: solid;
+    padding-left: 7px;
+}
+.try{
+    background-color: rgb(9, 160, 219);
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    width: 80%;
+    border-radius: 10px;
+}
+.try>button{
+    width: 100%;
+    background-color: rgb(9, 160, 219);
+    text-size-adjust: 20px;
+    border-radius: 10px;
+}
+.dolar{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.money{
+}
+.permonth{
+    font-size: 7px;
+}
+.branches{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(9, 9, 36);
+    color: white;
+    padding-top: 120px;
+    height: 500px;
+    margin-top: 70px;
+}
+.filling{
+   display: flex;
+   justify-content: center;
+   margin-top: -100px;
+   background-color: transparent;
+}
+.letter>input{
+    margin-top: 20px;
+    height: 30px;
+}
+.letter>label{
+    padding-top: 20px;
+}
+.letter>h1{
+    text-align: center;
+}
+.letter{
+    background-color: antiquewhite;
+    padding-left: 20px;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 900px;
+    margin-left: 30px;
+}
+.others{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    background-color: white;
+}
